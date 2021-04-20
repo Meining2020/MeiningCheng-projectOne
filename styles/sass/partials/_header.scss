@@ -1,1 +1,41 @@
-ECHO is on.
+header {
+    background-image: url(../images/home-image-1.jpg);
+    background-size: cover;
+    max-height: 100vh;
+    // min-width: 50vh;
+    position: relative;
+    z-index: 1;
+}
+
+h1 {
+    text-align: center;
+    width: calc(100% - 3.2rem);
+    padding: 0;
+}
+
+
+.header-image-container {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: -30px;
+    right: 0;
+    z-index: -1;
+}
+
+
+//blog page
+
+.sub-page {
+    height: 50vh;
+    
+
+}
+
+.sub-page h1 {
+    font-size: 6rem;
+    text-align: start;
+    position: relative;
+    bottom: -15vh;
+}
+

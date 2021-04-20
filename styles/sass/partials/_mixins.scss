@@ -1,1 +1,30 @@
-ECHO is on.
+
+@mixin textStyle($font-size, $font-weight: bold, $letter-spacing: 0.1rem) {
+    font-size: $font-size;
+    font-weight: $font-weight;
+    letter-spacing: $letter-spacing;
+}
+
+
+@mixin yellowBackground ($background-color: $sunny-yellow, $position: relative) {
+    background-color: $background-color;
+    position: $position;
+}
+
+@mixin bottomBorder( $bottom: 1rem) {
+    bottom: $bottom;
+}
+
+@mixin rightBorder( $right: 1rem) {
+    right: $right;
+}
+
+@mixin leftBorder( $left: 1rem) {
+    left: $left;
+}
+
+@mixin flexBoxCenter ($display: flex, $justify-content: center, $align-items: center) {
+    display: $display;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}

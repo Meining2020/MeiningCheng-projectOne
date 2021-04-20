@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/5e9cff1273.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
     <title>planted-home</title>
 </head>
@@ -15,13 +18,16 @@
             <nav>
                 <ul>
                     <li class="logo">Planted</li>
-                    <li><a href="#">home</a></li>
+                    <li><a href="index.html">home</a></li>
                     <li><a href="#about">about</a></li>
                     <li><a href="blog.html">blog</a></li>
                     <li><a href="contact.html">contact</a></li>
                 </ul>
             </nav>
-            <h1>Planted invitation</h1>
+            <h1><span class="logo">Planted</span> invitation</h1>
+        </div>
+        <div class="header-image-container">
+            <img src="./images/header-box.jpg" alt="drak green leaves">
         </div>
     </header>
 
@@ -31,23 +37,22 @@
         <section id="about" class="about">
             <div class="wrapper about-wrapper">
                 <h2>What is Planted?</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique facilis modi nam, suscipit temporibus soluta et natus ab sapiente libero sed, nobis illo accusantium beatae quis vitae. Quaerat, quod cupiditate.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus cupiditate corrupti itaque sunt, veritatis atque eligendi, ullam aliquid laboriosam vero numquam repudiandae aperiam beatae tenetur reprehenderit incidunt sequi. Provident laborum nesciunt tempore iure neque, quas quasi mollitia iste saepe explicabo consectetur harum quaerat perferendis. Consequuntur doloribus eaque soluta distinctio culpa.</p>
                 <a href="#">Find Out More</a>
             </div>
         </section>
 
         <!-- workshop and discover section -->
-        <section class="workshop-and-discover">
+        <section class="workshop-and-discover wrapper">
             <!-- left part -->
             <div class="discover">
-                <div class="image-container">
+                <div class="image-container-left">
                     <img src="./images/left-flowers.jpg" alt="a bouquet of colorful flowers">
                 </div>
                 <div class="discover-text-container">
                     <div class="wrapper">
                         <h3>Unique plants to discover</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error placeat nesciunt sit quasi dignissimos mollitia,
-                            voluptate porro ullam officia at. Magnam qui voluptas, esse quae quidem ex tempora minima iure.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error placeat nesciunt sit quasi dignissimos mollitia, voluptate porro ullam officia at. Magnam qui voluptas, esse quae quidem ex tempora minima iure.</p>
                         <a href="#">Read More</a>
                     </div>
                 </div>
@@ -56,7 +61,7 @@
 
             <!-- right part -->
             <div class="workshop">
-                <div class="workshop-text-container">
+                <div class="workshop-text-container ">
                     <div class="wrapper">
                         <h3>Upcoming workshops</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error placeat nesciunt sit quasi dignissimos mollitia,
@@ -64,10 +69,11 @@
                         <a href="#">Read More</a>
                     </div>
                 </div>
-                <div class="image-container">
+                <div class="image-container-right">
                     <img src="./images/right-flowers.jpg" alt="green plant with small leaves">
                 </div>          
             </div>
+
             
         </section>
 
@@ -76,23 +82,31 @@
             <div class="more-info">
                 <div class="wrapper more-info-wrapper">
                     <div class="green-house">
-                        <i class="fas fa-leaf"></i>
-                        <h3>Green houses</h3>
+                        <div class="icon-header">
+                            <i class="fas fa-leaf"></i>
+                            <h3>Green houses</h3>
+                        </div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, tempore? Neque nihil exercitationem recusandae, dolorum maxime dolor libero sed, iusto quo fugiat, illo corporis illum.</p>
                     </div>
                     <div class="community">
-                        <i class="fas fa-users"></i>
-                        <h3>Community</h3>
+                        <div class="icon-header">
+                            <i class="fas fa-users"></i>
+                            <h3>Community</h3>
+                        </div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, tempore? Neque nihil exercitationem recusandae, dolorum maxime dolor libero sed, iusto quo fugiat, illo corporis illum.</p>
                     </div>
                     <div class="blog">
-                        <i class="fas fa-file"></i>
-                        <h3>Blog</h3>
+                        <div class="icon-header">
+                            <i class="fas fa-file"></i>
+                            <h3>Blog</h3>
+                        </div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, tempore? Neque nihil exercitationem recusandae, dolorum maxime dolor libero sed, iusto quo fugiat, illo corporis illum.</p>
                     </div>
                     <div class="get-in-touch">
-                        <i class="fas fa-phone"></i>
-                        <h3>Get in Touch</h3>
+                        <div class="icon-header">
+                            <i class="fas fa-phone"></i>
+                            <h3>Get in Touch</h3>
+                        </div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, tempore? Neque nihil exercitationem recusandae, dolorum maxime dolor libero sed, iusto quo fugiat, illo corporis illum.</p>
                     </div>
                     
@@ -111,7 +125,7 @@
                         <img src="./images/founder.jpg" alt="picture of founder">
                     </div>
                     <div class="founder-info">
-                        <h3>Planed's founder</h3>
+                        <h4>Planed's founder</h4>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo aut quisquam autem unde assumenda dignissimos voluptate quam doloribus facere non vero placeat sed cum distinctio, libero iste doloremque. Expedita, sapiente unde iure atque, delectus voluptatem, mollitia numquam maiores provident nulla veritatis quos nostrum eaque consequatur? Odio totam, inventore necessitatibus repellat sit facere ex amet.</p>
                         <a href="#">Find Out More</a>
                     </div>
@@ -126,7 +140,7 @@
                 <div>
                     <img src="./images/gallery-image-1.jpg" alt="botanical garden">
                 </div>
-                <div>
+                <div class="img2">
                     <img src="./images/gallery-image-2.jpg" alt="different types of cactus">
                 </div>
                 <div>

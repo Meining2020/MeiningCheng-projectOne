@@ -1,0 +1,50 @@
+html {
+    font-size: 62.5%;
+}
+
+nav, p, a{
+    font-family: $bodyFont;
+    font-size: 2rem;
+    line-height: 3.2rem;
+}
+
+h1, h2, h3, h4 {
+    font-family: $headingFont;
+}
+
+h1 {
+    font-size: 16.6rem;
+    font-weight: normal;
+    color: $sunny-yellow;
+}
+
+h2 {
+    @include textStyle(5.63rem, bold ,0.13rem);
+    text-align: center;
+}
+
+h3 {
+    @include textStyle(3.2rem, bold ,0.13rem);
+
+}
+
+h4 {
+    @include textStyle(4.2rem);
+}
+
+
+.more-info i {
+    font-size: 3.2rem;
+    
+}
+
+
+.logo {
+    color: $white;
+}
+
+a {
+    color: $white;
+}
+
+

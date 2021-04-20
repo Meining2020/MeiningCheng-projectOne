@@ -1,1 +1,17 @@
-ECHO is on.
+
+.header-wrapper nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    
+}
+
+.header-wrapper nav a {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+nav .logo {
+    font-size: 3rem;;
+}
+

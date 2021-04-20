@@ -1,0 +1,28 @@
+@import "partials/setup";
+@import "partials/variables";
+@import "partials/mixins";
+@import "partials/typographic";
+@import "partials/nav";
+@import "partials/header";
+@import "partials/sections";
+@import "partials/footer";
+
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+
