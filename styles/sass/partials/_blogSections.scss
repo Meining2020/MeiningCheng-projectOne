@@ -1,0 +1,132 @@
+.blog-main {
+    display: flex;
+    background-color: $off-white;
+}
+
+aside {
+    width: 45%;
+    margin-top: 5rem;
+    margin-right: 4rem;
+}
+
+.aside-content {
+    background-color: $white;
+    height: 40%;
+    width: 80%;
+    margin-left: 16%;
+}
+
+.aside-content img {
+    margin-left: -20%;
+    width: 100%;
+    display: block;
+}
+
+.side-text2 ul li{
+    position: relative;
+    padding-left: 2rem;
+}
+
+.side-text2 ul li::before{
+    content: "";
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background: $forest-green;
+    position: absolute;
+    left: 0rem;
+    top: 1.3rem;
+}
+
+// right section of blog page
+
+.article-image-container img{
+    width: 100%;
+    height: auto;
+    @include boxShadowLeft;
+    position: relative;
+    top: -25vh;
+    z-index: 1;
+}
+
+// .main-content section {
+//     position: relative;
+// }
+
+article {
+    border-left: 1rem solid $sunny-yellow;
+    border-bottom: 1rem solid $sunny-yellow;
+    margin-right: 10%;
+    position: relative;
+    top: -25vh;
+}
+
+//comment section
+.comments {
+    margin-right: 10%;
+}
+
+.comments h3 {
+    position: relative;
+    top: -10vh;
+}
+
+.comments h5 {
+    margin: 0;
+}
+
+.comment1, .comment2 {
+    display: flex;
+}
+
+.comment-container {
+    padding-left: 2rem;
+}
+
+.comment1 {
+    margin-bottom: 5rem;
+}
+
+
+//form
+.blog-form {
+    margin-right: 10%;
+    @include flexBoxCenter;
+    flex-direction: column;
+    margin-bottom: 10%;
+}
+
+.name-email {
+    width: 100%;
+    @include flexBoxCenter;
+    justify-content: space-between;
+}
+
+.name-email div {
+    flex-basis: 45%;
+}
+
+label {
+    padding: 2rem;
+}
+
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid $green;
+    background-color: $off-white;
+}
+
+textarea {
+    width: 100%;
+    background-color: $off-white;
+    border: 2px solid $green;
+    resize: none;
+    margin: 2rem;
+}
+
+button {
+    width: 100%;
+}
+

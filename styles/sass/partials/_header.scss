@@ -1,16 +1,20 @@
 header {
     background-image: url(../images/home-image-1.jpg);
     background-size: cover;
-    max-height: 100vh;
+    height: 100vh;
     // min-width: 50vh;
     position: relative;
     z-index: 1;
 }
 
+.home-main-heading {
+    @include flexBoxCenter;
+    height: 100vh;
+}
+
 h1 {
+    width: 50%;
     text-align: center;
-    width: calc(100% - 3.2rem);
-    padding: 0;
 }
 
 
@@ -25,11 +29,15 @@ h1 {
 
 
 //blog page
+.blog-header {
+    background-image: url(../images/blog-header-1.jpg);
+    margin-top: 5.4rem;
+    height: 50vh;
+}
 
 .sub-page {
     height: 50vh;
     
-
 }
 
 .sub-page h1 {
@@ -37,5 +45,12 @@ h1 {
     text-align: start;
     position: relative;
     bottom: -15vh;
+    width: 20%;
 }
 
+//contact page
+.contact-header {
+    background-image: url(../images/contact-header-1.jpg);
+    margin-top: 5.4rem;
+    height: 50vh;
+}

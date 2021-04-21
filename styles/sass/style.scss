@@ -5,10 +5,12 @@
 @import "partials/nav";
 @import "partials/header";
 @import "partials/sections";
+@import "partials/blogSections";
+@import "partials/contactSections";
 @import "partials/footer";
 
 .wrapper {
-    max-width: 1280px;
+    max-width: 1380px;
     margin: 0 auto;
     width: 100%;
     padding: 1rem;

@@ -2,13 +2,13 @@ html {
     font-size: 62.5%;
 }
 
-nav, p, a{
+nav, p, a, .side-text-container li{
     font-family: $bodyFont;
     font-size: 2rem;
     line-height: 3.2rem;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5{
     font-family: $headingFont;
 }
 
@@ -16,6 +16,7 @@ h1 {
     font-size: 16.6rem;
     font-weight: normal;
     color: $sunny-yellow;
+    margin: 0;
 }
 
 h2 {
@@ -43,8 +44,68 @@ h4 {
     color: $white;
 }
 
-a {
+a, button{
     color: $white;
 }
+
+
+button, label, ::placeholder {
+    @include formStyle;
+}
+
+button {
+    background-color: $green;
+}
+
+
+//blog
+.blog-main h2{
+    @include textStyle(4.3rem);
+    text-align: start;
+}
+
+.blog-main h3{
+    @include textStyle(2.3rem);
+}
+
+.blog-main h4{
+    @include textStyle(2rem, normal, 0.1rem);
+    color: $forest-green;
+    font-style: italic;
+}
+
+article span{
+    font-weight: bold;
+}
+
+h5 {
+    @include textStyle(2.3rem);
+    color: $forest-green;
+}
+
+.side-text-container a {
+    color: $forest-green;
+    background-color: $white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+//contact page
+
+.contact-main h2{
+    @include textStyle(2rem);
+    text-align: start;
+}
+
+.social-media-icon a {
+    background-color: $off-white;
+
+}
+
+.social-media-icon i {
+    color: $green;
+    margin-left: -2rem;
+}
+
 
 

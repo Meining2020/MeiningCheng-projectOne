@@ -20,51 +20,56 @@ main a {
 
 //workshop-and-discover section
 .workshop-and-discover {
-    height: 100vh;
+    // height: 100vh;
     // flex-wrap: wrap;
     @include flexBoxCenter();
+    justify-content: space-between;
 }
 
 
 .discover {
+    width: 50%;
     margin-right: 5rem;
     text-align: right;
 }
 
 .workshop {
+    width: 50%;
     margin-left: 5rem;
     text-align: left;
 }
 
-// .image-container-left {
-//     position: absolute;
-// }
-
 .discover-text-container, .workshop-text-container {
     height: 50vh;
+    width: 70%;
 }
 
 .image-container-left, .image-container-right{
     height: 50vh;
-    @include yellowBackground();
 }
-
 
 .workshop-and-discover img {
     width: 100%;
     height: 50vh;
-    display: block;
-    position: absolute;
-    @include bottomBorder();
-    
+    display: block;  
+    position: relative;
+}
+.image-container-left img{
+    @include boxShadowRight;
+    bottom: 30px;
 }
 
-.image-container-left img {   
-    @include rightBorder();
+.image-container-right img{
+    @include boxShadowLeft;
+    top: 30px;
 }
 
-.image-container-right img {
-    @include leftBorder();
+.discover-text-container {
+    margin-left: 20%;
+}
+
+.workshop-text-container {
+    margin-right: 20%;
 }
 
 
@@ -72,7 +77,6 @@ main a {
 
 .more-info-and-founder {
     background-color: $off-white;
-    
 }
 
 
@@ -84,7 +88,7 @@ main a {
 
 .more-info-wrapper > div {
     width: 50%;
-    padding: 5rem;
+    padding: 8rem;
 }
 
 
@@ -123,25 +127,25 @@ h3 {
 
 //founder info section
 .founder-wrapper {
-    // height: auto;
     @include flexBoxCenter();
+
 }
 
-.founder-image-container {
-    width: 100%;
-    height: 50vh;
-    margin: 1rem;
-    @include yellowBackground();
-    border: 3px solid black;
+.founder-info {
+    flex-basis: 70%;
+    padding: 2rem;
+}
     
+
+.founder-image-container {
+    flex-basis: 30%;
+    margin: 1rem;  
 }
 
 .founder-image-container img {
     max-width: 100%;
     height: auto;
-    position: absolute;
-    @include bottomBorder;
-    @include rightBorder;
+    @include boxShadowRight;
 }
 
 //gallery section

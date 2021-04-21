@@ -5,22 +5,19 @@
     letter-spacing: $letter-spacing;
 }
 
-
-@mixin yellowBackground ($background-color: $sunny-yellow, $position: relative) {
-    background-color: $background-color;
-    position: $position;
+@mixin formStyle($font-family: $headingFont, $font-size: 2rem, $font-weight: lighter, $line-height: 3.2rem) {
+    font-family: $font-family;
+    font-size: $font-size;
+    font-weight: $font-weight;
+    line-height: $line-height;
 }
 
-@mixin bottomBorder( $bottom: 1rem) {
-    bottom: $bottom;
+@mixin boxShadowRight($box-shadow: 2rem 2rem 1px $sunny-yellow) {
+    box-shadow: $box-shadow;
 }
 
-@mixin rightBorder( $right: 1rem) {
-    right: $right;
-}
-
-@mixin leftBorder( $left: 1rem) {
-    left: $left;
+@mixin boxShadowLeft($box-shadow: -2rem 2rem 1px $sunny-yellow) {
+    box-shadow: $box-shadow;
 }
 
 @mixin flexBoxCenter ($display: flex, $justify-content: center, $align-items: center) {
