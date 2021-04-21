@@ -26,6 +26,7 @@ h2 {
 
 h3 {
     @include textStyle(3.2rem, bold ,0.13rem);
+    margin-bottom: 0;
 
 }
 
@@ -33,12 +34,10 @@ h4 {
     @include textStyle(4.2rem);
 }
 
-
 .more-info i {
     font-size: 3.2rem;
     
 }
-
 
 .logo {
     color: $white;
@@ -57,30 +56,28 @@ button {
     background-color: $green;
 }
 
-
 //blog
-.blog-main h2{
-    @include textStyle(4.3rem);
-    text-align: start;
-}
-
-.blog-main h3{
-    @include textStyle(2.3rem);
-}
-
-.blog-main h4{
-    @include textStyle(2rem, normal, 0.1rem);
-    color: $forest-green;
-    font-style: italic;
+.blog-main {
+    h2 {
+        @include textStyle(4.3rem);
+        text-align: start;
+    }
+    h3 {
+        @include textStyle(2.3rem);
+    }
+    h4 {
+        @include textStyle(2rem, normal, 0.1rem);
+        color: $forest-green;
+        font-style: italic;
+    }
+    h5 {
+        @include textStyle(2.3rem);
+        color: $forest-green;
+    }
 }
 
 article span{
     font-weight: bold;
-}
-
-h5 {
-    @include textStyle(2.3rem);
-    color: $forest-green;
 }
 
 .side-text-container a {
@@ -99,7 +96,6 @@ h5 {
 
 .social-media-icon a {
     background-color: $off-white;
-
 }
 
 .social-media-icon i {

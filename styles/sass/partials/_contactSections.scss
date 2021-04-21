@@ -2,32 +2,30 @@
     background-color: $off-white;
     @include flexBoxCenter;
     justify-content: space-between;
-    
-}
-
-aside {
-    margin-left: 10%;
-    padding: 5rem;
-}
-
-
-.contact-form {
-    @include flexBoxCenter;
-    flex-direction: column;
-    @include boxShadowLeft;
-    width: 90%;
-    height: 50vh;
-    margin-right: 10%;
-    padding: 2rem;
-    position: relative;
-    top: -25vh;
-    z-index: 1;
-    background-color: $white;
-    input {
-        background-color: $white;
+    aside {
+        width: 45%;
+        margin-left: 10%;
+        padding: 5rem;
     }
-    textarea {
+    .contact-form {
+        @include flexBoxCenter;
+        flex-direction: column;
+        @include boxShadowLeft;
+        width: 90%;
+        height: 50vh;
+        margin-right: 10%;
+        padding: 2rem;
+        position: relative;
+        top: -25vh;
+        z-index: 1;
         background-color: $white;
-        margin: 2rem 0;
+        input {
+            background-color: $white;
+        }
+        textarea {
+            background-color: $white;
+            margin: 2rem 0;
+        }
     }
 }
+

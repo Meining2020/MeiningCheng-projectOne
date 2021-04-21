@@ -5,26 +5,23 @@ header {
     // min-width: 50vh;
     position: relative;
     z-index: 1;
+    h1 {
+        width: 50%;
+        text-align: center;
+    }
+    .header-image-container {
+        max-width: 100%;
+        height: auto;
+        position: absolute;
+        bottom: -30px;
+        right: 0;
+        z-index: -1;
+    }
 }
 
 .home-main-heading {
     @include flexBoxCenter;
     height: 100vh;
-}
-
-h1 {
-    width: 50%;
-    text-align: center;
-}
-
-
-.header-image-container {
-    max-width: 100%;
-    height: auto;
-    position: absolute;
-    bottom: -30px;
-    right: 0;
-    z-index: -1;
 }
 
 
@@ -36,16 +33,14 @@ h1 {
 }
 
 .sub-page {
-    height: 50vh;
-    
-}
-
-.sub-page h1 {
-    font-size: 6rem;
-    text-align: start;
-    position: relative;
-    bottom: -15vh;
-    width: 20%;
+    height: 50vh; 
+    h1 {
+        font-size: 6rem;
+        text-align: start;
+        position: relative;
+        bottom: -15vh;
+        width: 20%;
+    }
 }
 
 //contact page
