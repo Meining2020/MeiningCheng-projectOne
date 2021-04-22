@@ -49,17 +49,16 @@ main a {
     width: calc(100% - 2rem);
     img {
         @include boxShadowRight;
-        bottom: 30px;
+        bottom: 3rem;
     }
 }
 
 .image-container-right {
     width: calc(100% - 2rem);
-    height: 50vh;
     margin-left: 2rem;
     img {
         @include boxShadowLeft;
-        top: 30px;
+        top: 3rem;
     }
 }
 
@@ -137,10 +136,14 @@ main a {
 @media (max-width: 768px) {
     .workshop-and-discover  {
         flex-direction: column;
+        .discover, .workshop {
+            width: 80%;
+        }
     }
 
     .more-info-wrapper > div {
     width: 100%;
+    padding: 4rem;
     }
 }
 
