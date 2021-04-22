@@ -6,7 +6,7 @@ header {
     position: relative;
     z-index: 1;
     h1 {
-        width: 50%;
+        // width: 50%;
         text-align: center;
     }
     .header-image-container {
@@ -16,6 +16,10 @@ header {
         bottom: -30px;
         right: 0;
         z-index: -1;
+        img {
+            width: 100%;
+            height: auto;
+        }
     }
 }
 
@@ -28,24 +32,23 @@ header {
 //blog page
 .blog-header {
     background-image: url(../images/blog-header-1.jpg);
-    margin-top: 5.4rem;
-    height: 50vh;
+    height: 45rem;
 }
 
 .sub-page {
-    height: 50vh; 
+    // height: 50vh; 
+    height: 35rem;
     h1 {
         font-size: 6rem;
         text-align: start;
         position: relative;
-        bottom: -15vh;
-        width: 20%;
+        bottom: -25rem;
+        width: 30%;
     }
 }
 
 //contact page
 .contact-header {
     background-image: url(../images/contact-header-1.jpg);
-    margin-top: 5.4rem;
-    height: 50vh;
+    height: 45rem;
 }

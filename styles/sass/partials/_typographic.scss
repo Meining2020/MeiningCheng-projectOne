@@ -1,6 +1,9 @@
 html {
     font-size: 62.5%;
+    
 }
+
+
 
 nav, p, a, .side-text-container li{
     font-family: $bodyFont;
@@ -74,6 +77,10 @@ button {
         @include textStyle(2.3rem);
         color: $forest-green;
     }
+
+    h1, h2, h3, h4, h5, p{
+        padding: 0 2rem;
+    }
 }
 
 article span{
@@ -96,6 +103,7 @@ article span{
 
 .social-media-icon a {
     background-color: $off-white;
+    // padding: 0;
 }
 
 .social-media-icon i {

@@ -3,20 +3,24 @@
     @include flexBoxCenter;
     justify-content: space-between;
     aside {
+        @include flexBoxCenter;
+        flex-direction: column;
+        align-items: flex-start;
         width: 45%;
-        margin-left: 10%;
+        margin-left: 12%;
         padding: 5rem;
+        
     }
     .contact-form {
         @include flexBoxCenter;
         flex-direction: column;
         @include boxShadowLeft;
         width: 90%;
-        height: 50vh;
+        height: 45rem;
         margin-right: 10%;
         padding: 2rem;
         position: relative;
-        top: -25vh;
+        top: -20rem;
         z-index: 1;
         background-color: $white;
         input {
@@ -29,3 +33,18 @@
     }
 }
 
+@media (max-width: 768px) {
+    .contact-main {
+        flex-direction: column-reverse;
+        aside {
+            width: 100%;
+            div {
+                margin: 0 auto;
+            }
+        }
+        .contact-form {
+            top: 0;
+            margin-left: 16%;
+        }
+    } 
+}
