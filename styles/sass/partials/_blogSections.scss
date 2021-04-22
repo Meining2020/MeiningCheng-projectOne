@@ -1,6 +1,5 @@
 .blog-main {
     display: flex;
-    // flex-wrap: wrap;
     background-color: $off-white;
     aside {
         width: 45%;
@@ -13,7 +12,6 @@
     background-color: $white;
     height: 40%;
     width: 80%;
-    // min-width: 200px;
     margin-left: 16%;
     img {
         margin-left: -20%;
@@ -47,7 +45,6 @@
     height: auto;
     @include boxShadowLeft;
     position: relative;
-    // top: -25vh;
     top: -15rem;
     z-index: 1;
 }
@@ -138,7 +135,7 @@ button {
             img {
                 max-width: 70rem;
                 position: relative;
-                top: -15rem;
+                top: -10rem;
                 left: 33rem;
                 z-index: 1;
                 };
@@ -176,7 +173,6 @@ button {
         width: 100%;
         @include flexBoxCenter;
         flex-direction: column;
-        // justify-content: space-between;
         div {
             width: 100%;
             label {

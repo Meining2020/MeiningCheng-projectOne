@@ -24,37 +24,29 @@ main a {
     justify-content: space-between;
     .discover {
         width: 45%;
-        // margin-right: 5rem;
         text-align: right;
         .discover-text-container {
             margin-left: 20%;
             padding: 2rem 0 5rem;
-            // height: 50vh;
-            // width: 70%;
         }
     }
     .workshop {
         width: 45%;
-        // margin-left: 5rem;
         text-align: left;
         .workshop-text-container {
             margin-right: 20%;
-            // height: 50vh;
-            // width: 70%;
         }
     }
 }
 
 .workshop-and-discover img {
     width: 100%;
-    // height: 50vh;
     display: block;  
     position: relative;
 }
 
 .image-container-left {
     width: calc(100% - 2rem);
-    // height: 50vh;
     img {
         @include boxShadowRight;
         bottom: 30px;
@@ -133,7 +125,6 @@ main a {
 
 //gallery section
 .gallery-wrapper {
-    // min-height: 100vh;
     @include flexBoxCenter();
     flex-wrap: wrap;
     div:nth-child(2) {
@@ -155,7 +146,6 @@ main a {
 
 @media (max-width: 480px) {
     .gallery-image-container {
-        // width: 300px;
         height: 300px;
         img {
             max-height: 100%;

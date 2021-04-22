@@ -2,11 +2,9 @@ header {
     background-image: url(../images/home-image-1.jpg);
     background-size: cover;
     height: 100vh;
-    // min-width: 50vh;
     position: relative;
     z-index: 1;
     h1 {
-        // width: 50%;
         text-align: center;
     }
     .header-image-container {
@@ -36,14 +34,13 @@ header {
 }
 
 .sub-page {
-    // height: 50vh; 
     height: 35rem;
     h1 {
         font-size: 6rem;
         text-align: start;
         position: relative;
         bottom: -25rem;
-        width: 30%;
+        width: 20%;
     }
 }
 
@@ -51,4 +48,12 @@ header {
 .contact-header {
     background-image: url(../images/contact-header-1.jpg);
     height: 45rem;
+}
+
+@media (max-width: 768px) {
+    .sub-page {
+        h1 {
+            width: 30%;
+        }
+    }
 }
