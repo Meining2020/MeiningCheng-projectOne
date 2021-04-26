@@ -1,7 +1,8 @@
 header {
     background-image: url(../images/home-image-1.jpg);
     background-size: cover;
-    height: 100vh;
+    // height: 100vh;
+    height: 80rem;
     position: relative;
     z-index: 1;
     h1 {
@@ -23,7 +24,7 @@ header {
 
 .home-main-heading {
     @include flexBoxCenter;
-    height: 100vh;
+    height: 80rem;
 }
 
 
@@ -39,7 +40,7 @@ header {
         font-size: 6rem;
         text-align: start;
         position: relative;
-        bottom: -25rem;
+        bottom: -20rem;
         width: 20%;
     }
 }

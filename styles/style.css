@@ -383,7 +383,7 @@ article span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 1rem;
+  padding: 3rem;
 }
 
 .header-wrapper nav .nav-bar ul {
@@ -397,12 +397,14 @@ article span {
 }
 
 .header-wrapper nav .nav-bar .logo {
-  font-size: 3rem;
+  font-size: 4rem;
+  font-weight: normal;
 }
 
 .header-wrapper nav .nav-bar a {
   text-transform: uppercase;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .header-wrapper nav .nav-bar li {
@@ -411,6 +413,7 @@ article span {
 
 .nav-wrapper {
   background-color: #000;
+  height: 8.2rem;
 }
 
 .sub-page-nav {
@@ -487,7 +490,7 @@ nav ul li a:hover, nav ul li a:focus, nav ul li a:active {
 header {
   background-image: url(../images/home-image-1.jpg);
   background-size: cover;
-  height: 100vh;
+  height: 80rem;
   position: relative;
   z-index: 1;
 }
@@ -520,7 +523,7 @@ header .header-image-container img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100vh;
+  height: 80rem;
 }
 
 .blog-header {
@@ -536,7 +539,7 @@ header .header-image-container img {
   font-size: 6rem;
   text-align: start;
   position: relative;
-  bottom: -25rem;
+  bottom: -20rem;
   width: 20%;
 }
 
