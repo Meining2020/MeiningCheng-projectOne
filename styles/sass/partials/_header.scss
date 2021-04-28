@@ -51,10 +51,26 @@ header {
     height: 45rem;
 }
 
-@media (max-width: 768px) {
+
+@media (max-width: 940px) {
+    .header-image-container {
+        display: none;
+    }
+    .home-main-heading h1{
+        font-size: 10rem;
+    }
+
     .sub-page {
         h1 {
-            width: 30%;
+            width: 40%;
+            font-size: 6rem;
         }
     }
+}
+
+@media (max-width: 480px) {
+    .home-main-heading h1{
+        font-size: 6rem;
+    }
+
 }

@@ -36,7 +36,7 @@ ul {
 /* Portrait tablet and small desktops */
 @media (max-width: 940px) {
     html {
-        font-size: 50%;
+        font-size: 70%;
         .wrapper {
         max-width: 700px;
         }
@@ -46,7 +46,7 @@ ul {
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
     html {
-        font-size: 40%;
+        font-size: 60%;
         .wrapper {
         max-width: 500px;
         }
@@ -57,7 +57,7 @@ ul {
 @media (max-width: 480px) {
 
     html {
-        font-size: 30%;
+        font-size: 50%;
         .wrapper {
         max-width: 350px;
         }

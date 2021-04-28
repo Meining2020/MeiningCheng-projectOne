@@ -33,7 +33,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 940px) {
     .contact-main {
         flex-direction: column-reverse;
         aside {
@@ -45,6 +45,7 @@
         .contact-form {
             top: 0;
             margin-left: 16%;
+            z-index: 0;
         }
     } 
 }
